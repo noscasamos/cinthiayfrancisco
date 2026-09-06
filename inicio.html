@@ -866,7 +866,7 @@ Queremos que seas parte de este momento tan especial.</h5>
         <input type="hidden"  name="Contador" value="1">
         <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:#323232;  font-family: 'Montserrat', sans-serif; font-optical-sizing: auto; font-weight: 300;">De los boletos asignados ¿Cuántos vas a utilizar?</h2>
         <select name="Boletos a utilizar" class="custom-select2 col-12" id="boletos" style="color: #323232; font-size: 20px; height: 45px; font-family: 'Montserrat', sans-serif; font-optical-sizing: auto; font-weight: 300; ">
-                <option value="1">1</option>
+                <option value="0">0</option>
           
                 
         </select>
@@ -1106,7 +1106,7 @@ Queremos que seas parte de este momento tan especial.</h5>
  
     document.getElementById("respuestaEnviada").style.display = "none";
          let comprobar = "1";
-        let scriptURL = 'https://script.google.com/macros/s/AKfycbxB9cXuBjvNL0eLS9Dd1LAGLVNCxNa061HPvxvXKHLHM1eo5IGYejz6N7rXlS0UyDY/exec';
+        let scriptURL = '';
         let form = document.forms['submit-form'];
  
         form.addEventListener('submit', e => {
